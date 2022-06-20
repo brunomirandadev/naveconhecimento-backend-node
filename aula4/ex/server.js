@@ -12,7 +12,7 @@ http.createServer(function (req, res) {
       res.writeHead(404, {'Content-Type': 'text/html'});
       return res.end("404 Not Found");
     }
-    if (op == 'soma' && (q.pathname == '/index.html'  ||
+    if (op == 'sum' && (q.pathname == '/index.html'  ||
                           q.pathname == '/summer.html' ||  
                           q.pathname == '/winter.html' ||  
                           q.pathname == '/fall.html'   ||
